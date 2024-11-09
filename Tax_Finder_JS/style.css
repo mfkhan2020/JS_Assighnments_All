@@ -1,0 +1,50 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.main_heading{
+    color: blue;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    text-align: center;
+    
+    margin-top: 100px;
+}
+.table_main, td{
+    border: solid lightgoldenrodyellow;
+    border-collapse: collapse;
+    margin: auto;
+    width: 700px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: lightcyan;
+    color: darkcyan;
+}
+button{
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: lightgreen;
+    text-align: center;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+span{
+    color: red;
+    font-weight: 900;
+}
