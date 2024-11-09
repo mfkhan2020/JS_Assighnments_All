@@ -8,54 +8,49 @@
     <link rel="shortcut icon" href="tax_calc_logo.png" type="image/x-icon">
 </head>
 <body>
-    
     <div class="container">
         <h1 class="main_heading">TAX FINDER</h1>
         <form action="">
-        <table class="table_main">
-            <tr>
-                <td><label for="inp1">Grocerry</label></td>
-                <td><input placeholder="Enter Amount" type="number" name="" id="inp1"></td>
-            </tr>
-        <tr>
-            <td><label for="inp2">Electricity</label></td>
-            <td><input placeholder="Enter Amount" type="number" name="" id="inp2"></td>
-        </tr>
-        <tr>
-            <td><label for="inp3">Gas</label></td>
-            <td><input placeholder="Enter Amount" type="number" name="" id="inp3"></td>
-        </tr>
-        <tr>
-            <td><label for="inp4">Telephone</label></td>
-            <td><input placeholder="Enter Amount" type="number" name="" id="inp4"></td>
-        </tr>
-        <tr>
-            <td><label for="inp5">Internet</label></td>
-            <td><input placeholder="Enter Amount" type="number" name="" id="inp5"></td>
-        </tr>
-        <tr>
-            <td><button type="submit" onclick="tax_calc(event)">Tax Calculate</button></td>
-            <td><button type="reset">Clear Data</button></td>
-        </tr>
-        
-        <tr>
-            <td><h3>Total Bill Without Tax : </h3></td>
-            <td><span id="tb"></span></td>
-        </tr>
-        <tr>
-            <td><h3>Total Tax (13%): </h3></td>
-            <td><span id="tt"></span></td>
-        </tr>
-        <tr>
-            <td><h3>Total Amount : </h3></td>
-            <td><span id="ta"></span></td>
-        </tr>
-    </table>    
-    </form>
-
-        
-        
-        
+            <table class="table_main">
+                <tr>
+                    <td><label for="inp1">Grocerry</label></td>
+                    <td><input placeholder="Enter Amount" type="number" name="" id="inp1"></td>
+                </tr>
+                <tr>
+                    <td><label for="inp2">Electricity</label></td>
+                    <td><input placeholder="Enter Amount" type="number" name="" id="inp2"></td>
+                </tr>
+                <tr>
+                    <td><label for="inp3">Gas</label></td>
+                    <td><input placeholder="Enter Amount" type="number" name="" id="inp3"></td>
+                </tr>
+                <tr>
+                    <td><label for="inp4">Telephone</label></td>
+                    <td><input placeholder="Enter Amount" type="number" name="" id="inp4"></td>
+                </tr>
+                <tr>
+                    <td><label for="inp5">Internet</label></td>
+                    <td><input placeholder="Enter Amount" type="number" name="" id="inp5"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit" onclick="tax_calc(event)">Tax Calculate</button></td>
+                    <td><button type="reset">Clear Data</button></td>
+                </tr>
+                
+                <tr>
+                    <td><h3>Total Bill Without Tax : </h3></td>
+                    <td><span id="tb"></span></td>
+                </tr>
+                <tr>
+                    <td><h3>Total Tax (13%): </h3></td>
+                    <td><span id="tt"></span></td>
+                </tr>
+                <tr>
+                    <td><h3>Total Amount : </h3></td>
+                    <td><span id="ta"></span></td>
+                </tr>
+            </table>    
+        </form>
     </div>
 <script src="main.js"></script>
 </body>
