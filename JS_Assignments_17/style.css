@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.main-container{
+    border: 30px solid rgb(86, 81, 90);
+    padding: 40px;
+    background-color: #4a4b4b;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: #4cb1ff;
+    font-size: 3em;
+    text-shadow: 3px 3px rgba(195, 213, 226, 0.7);
+}
+h2{
+    text-decoration: underline;
+    color: #7cb078;
+}
+span{
+    color: red;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.para{
+    font-size: 1.2em;
+    color: #d7ce36;
+}
+h3{
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+.result-para{
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #9c7bac;
+}
+h3{
+    color: #ff7f2d;
+}
+hr{
+    border: none;
+    height: 5px;
+    background-color: rgb(86, 81, 90);
+}
